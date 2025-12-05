@@ -1,8 +1,3 @@
-/* Aspect Ratio: Bike Only Demonstration
-- Old Man 
-*/
-//
-//Display
 fullScreen(); //Landscape
 //size(5358, 3573); //Portrait
 int appWidth = displayWidth; //width
@@ -19,9 +14,9 @@ float imageDivHeight = appHeight*4/5;
 //Directory or Pathway, Concatenation
 String upArrow = "../../";
 String folder = "6843c8af127106.54099015"; //
-String bike = "Jazz";
+String image = "Jazz";
 String fileExtensionJPG = ".jpeg";
-String imagePathway1 = upArrow + folder + bike + fileExtensionJPG;
+String imagePathway1 = upArrow + folder + image + fileExtensionJPEG;
 //println("Bike Pathway:", imagePathway1);
 //Image Loading & Aspect Ratio
 PImage image1 = loadImage( imagePathway1 );
